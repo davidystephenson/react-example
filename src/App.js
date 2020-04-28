@@ -27,7 +27,7 @@ function Greet (props) {
   return <p>{greeting} {props.student}{punctuation}</p>
 }
 
-function Greetings2 ({ custom, subtitle }) {
+function Greetings ({ custom, subtitle }) {
   return <div>
     <h3>{subtitle}</h3>
     <Greet student='Amy' greeting={custom} />
